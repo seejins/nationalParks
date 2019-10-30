@@ -24,7 +24,7 @@ function getNationalParks(searchTerm, maxResults=10) {
     console.log("Formdata", searchTerm, maxResults);
     const params= {
         api_key: apiKey,
-        q: searchTerm,
+        stateCode: searchTerm,
         limit: maxResults,
     };
 
